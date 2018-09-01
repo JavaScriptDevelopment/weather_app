@@ -1,8 +1,8 @@
 
-import React from 'react';
-import { Component } from 'react';
-
-
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { fetchWeather } from '../actions/index';
 
 export default class App extends Component{
       constructor(props) {
@@ -45,3 +45,13 @@ render(){
   }
 
 }
+
+function mapDispatchToProps(dispatch) {
+    return bindActionCreators({ fetchWeather }, dispatch);    
+}
+
+export default connect(null, mapDispatchToProps)(SearchBar);
+
+
+
+
