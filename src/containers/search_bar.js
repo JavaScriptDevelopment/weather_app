@@ -10,7 +10,10 @@ render(){
     return (
    <form className = "input-group">
     <input />
-    </form>
+        <span className = "input-group-btn">
+        <button type="submit" className="btn btn-secondary">Submit</button>
+        </span>
+        </form>
 
   );
   }
