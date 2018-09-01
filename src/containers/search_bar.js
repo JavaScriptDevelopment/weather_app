@@ -17,7 +17,15 @@ export default class App extends Component{
     console.log(event.target.value);
        this.setState({term: event.target.value });
 }    
-           
+
+onFormSubmit(event) {
+    this.preventDefault();
+//need to fetch weather data here 
+
+}
+ 
+
+      
 render(){
 
     return (
