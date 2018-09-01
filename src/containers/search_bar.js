@@ -9,6 +9,8 @@ export default class App extends Component{
       super(props)
     
       this.state = { term: ''};
+      
+     this.onInputChange = this.onInputChange.bind(this);
     }
     
  onInputChange(event) {
