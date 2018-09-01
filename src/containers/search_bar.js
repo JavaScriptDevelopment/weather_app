@@ -8,12 +8,11 @@ export default class App extends Component{
 render(){
 
     return (
-      <div>
-      <SearchBar />  
-      </div>
+   <form className = "input-group">
+    <input />
+    </form>
 
-    );
-  
+  );
   }
 
 }
