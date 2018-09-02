@@ -1,17 +1,16 @@
+import React, { Component } from 'react';
 
-import React from 'react';
-import { Component } from 'react';
-
-import SearchBar from '../containers/search_bar';
-import WeatherList from '../containers/weather_list';
-
-export default class App extends Component {
+export default class WeatherList extends Component {
     render() {
         return (
-            <div>
-            <SearchBar />
-            <WeatherList/>
-            </div>
+            <table className="table table-hover">
+            <thead>
+                <tr>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            </table>
         );
     }
 }
