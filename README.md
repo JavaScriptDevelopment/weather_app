@@ -19,5 +19,8 @@ $ npm install
 # Run the app
 $ npm start
 ```
+![](api.png)
+
+
 
 ![alt tag](./weather1.gif)
