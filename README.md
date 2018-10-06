@@ -11,13 +11,17 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 $ git clone https://github.com/rupesh1310/weather_app.git
 
 # Go into the repository
-$ cd filename
+$ cd filename 
 
 # Install dependencies
 $ npm install
 
 # Run the app
 $ npm start
+```
+```bash
+# Add your api key in ./src/actions/index.js 
+const API_KEY = ' ';
 ```
 ![](api.png)
 
