@@ -19,6 +19,8 @@ $ npm install
 # Run the app
 $ npm start
 ```
+
+![](https://img.shields.io/badge/API-red.svg?style=for-the-badge)
 ```bash
 # Add your api key in ./src/actions/index.js 
 const API_KEY = ' ';
