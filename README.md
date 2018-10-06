@@ -22,5 +22,6 @@ $ npm start
 ![](api.png)
 
 
-[![](https://img.shields.io/badge/DemoRun-yellow.svg?style=for-the-badge)]
+![](https://img.shields.io/badge/DemoRun-red.svg?style=for-the-badge)
+
 ![alt tag](./weather1.gif)
